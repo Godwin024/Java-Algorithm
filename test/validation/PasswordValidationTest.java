@@ -49,4 +49,11 @@ public class PasswordValidationTest {
         assertFalse(PasswordValidation.isValid(password));
     }
 
+    @Test
+    public void testNewPassword() {
+        String password = "Welcome 123$";
+        assertFalse(PasswordValidation.isValid(password));
+    }
+
+
 }

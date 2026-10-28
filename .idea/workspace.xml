@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="268d9294-f0f8-4756-95af-29e8c88190ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/AddSumDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/ReversedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionsHandlings/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validation/EmailValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validation/PasswordValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/validation/EmailValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/validation/PasswordValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileCreations/FileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaioExample/ExampleOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jsonFileCreator/jsonFileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nullPointerHandlingWithOptional/OptionalHandlingNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortestWord/ShortestWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/youTubeFileCreation/YouTubeFileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/shortestWord/ShortestWordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorthms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorthms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validation/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/validation/PasswordValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/validation/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/validation/PasswordValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="&lt;default&gt;" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
   &quot;fromUser&quot;: false
@@ -44,7 +49,9 @@
   "keyToString": {
     "Application.AddSumDigit.executor": "Run",
     "Application.BankAccount.executor": "Run",
+    "Application.FileCreator.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.OptionalHandlingNull.executor": "Run",
     "Application.ReversedArray.executor": "Run",
     "Application.SquareNumbers.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
@@ -54,12 +61,15 @@
     "JUnit.PasswordValidationTest.executor": "Run",
     "JUnit.PasswordValidationTest.testInvalidPassword.executor": "Run",
     "JUnit.PasswordValidationTest.testLowercasePassword.executor": "Run",
+    "JUnit.PasswordValidationTest.testNewPassword.executor": "Run",
     "JUnit.PasswordValidationTest.testNoSpecialCharactersPassword.executor": "Run",
     "JUnit.PasswordValidationTest.testSpacesCharactersPassword.executor": "Run",
     "JUnit.PasswordValidationTest.testUperCasePassword.executor": "Run",
     "JUnit.PasswordValidationTest.testValidEmail.executor": "Run",
     "JUnit.PasswordValidationTest.testValidPassword.executor": "Run",
     "JUnit.PasswordValidationTest.testValidPassword1.executor": "Run",
+    "JUnit.ShortestWordTest.executor": "Run",
+    "JUnit.ShortestWordTest.testThatItakeAnArraysOfNumbersAndReturnTheSquareOfTheNumberInDecendingOder.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -86,7 +96,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager">
     <configuration name="PasswordValidationTest.testLowercasePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorthms" />
       <extension name="coverage">
@@ -103,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidationTest.testNoSpecialCharactersPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordValidationTest.testNewPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorthms" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +123,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="validation" />
       <option name="MAIN_CLASS_NAME" value="validation.PasswordValidationTest" />
-      <option name="METHOD_NAME" value="testNoSpecialCharactersPassword" />
+      <option name="METHOD_NAME" value="testNewPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,17 +145,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidationTest.testUperCasePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShortestWordTest.testThatItakeAnArraysOfNumbersAndReturnTheSquareOfTheNumberInDecendingOder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorthms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validation.*" />
+          <option name="PATTERN" value="shortestWord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="validation" />
-      <option name="MAIN_CLASS_NAME" value="validation.PasswordValidationTest" />
-      <option name="METHOD_NAME" value="testUperCasePassword" />
+      <option name="PACKAGE_NAME" value="shortestWord" />
+      <option name="MAIN_CLASS_NAME" value="shortestWord.ShortestWordTest" />
+      <option name="METHOD_NAME" value="testThatItakeAnArraysOfNumbersAndReturnTheSquareOfTheNumberInDecendingOder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="JUnit.PasswordValidationTest.testSpacesCharactersPassword" />
-        <item itemvalue="JUnit.PasswordValidationTest.testNoSpecialCharactersPassword" />
+        <item itemvalue="JUnit.ShortestWordTest.testThatItakeAnArraysOfNumbersAndReturnTheSquareOfTheNumberInDecendingOder" />
         <item itemvalue="JUnit.PasswordValidationTest.testLowercasePassword" />
-        <item itemvalue="JUnit.PasswordValidationTest.testUperCasePassword" />
+        <item itemvalue="JUnit.PasswordValidationTest.testSpacesCharactersPassword" />
+        <item itemvalue="JUnit.PasswordValidationTest.testNewPassword" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
